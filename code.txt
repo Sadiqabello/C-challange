@@ -1,0 +1,286 @@
+// See https://aka.ms/new-console-template for more information
+using System.Linq;
+
+
+// string[] names = {  "Sadiq", "Bala", "Musa", "Abubakar", "Bashir", "Usman" };
+
+// var linqQuery = from name in names
+//                    where name.Contains("a")
+//                    orderby name.Length
+//                    select name.ToUpper();
+
+// foreach (var name in linqQuery) Console.WriteLine(name);var startingDeck = from s in Suits()
+//                    from r in Ranks()
+//                    select new { Suit = s, Rank = r };
+
+// foreach (var card in startingDeck) Console.WriteLine(card);   
+
+// // 52 cards in a deck, so 52 / 2 = 26
+// var top = startingDeck.Take(26);
+// var bottom = startingDeck.Skip(26);
+
+
+// static IEnumerable<string> Suits(){
+//     yield return "clubs";
+//     yield return "diamonds";
+//     yield return "hearts";
+//     yield return "spades";
+// }
+
+// static IEnumerable<string> Ranks(){
+//     yield return "two";
+//     yield return "three";
+//     yield return "four";
+//     yield return "five";
+//     yield return "six";
+//     yield return "seven";
+//     yield return "eight";
+//     yield return "nine";
+//     yield return "ten";
+//     yield return "jack";
+//     yield return "queen";
+//     yield return "king";
+//     yield return "ace";
+// }
+
+// Console.WriteLine("Signed Integral Types");
+// Console.WriteLine("\n");
+
+// Console.WriteLine($"sbyte  : {sbyte.MinValue} to {sbyte.MaxValue}");
+// Console.WriteLine($"short  : {short.MinValue} to {short.MaxValue}");
+// Console.WriteLine($"int    : {int.MinValue} to {int.MaxValue}");
+// Console.WriteLine($"long   : {long.MinValue} to {long.MaxValue}");
+
+// Console.WriteLine("\n");
+// Console.WriteLine("Unsigned Integral Types");
+
+// Console.WriteLine($"byte   : {byte.MinValue} to {byte.MaxValue}");
+// Console.WriteLine($"ushort : {ushort.MinValue} to {ushort.MaxValue}");
+// Console.WriteLine($"uint   : {uint.MinValue} to {uint.MaxValue}");
+// Console.WriteLine($"ulong  : {ulong.MinValue} to {ulong.MaxValue}");
+
+// Console.WriteLine("\n");
+// Console.WriteLine("Floating Point Types");
+
+// Console.WriteLine($"float  : {float.MinValue} to {float.MaxValue} (with ~6-9 digits of precision)");
+// Console.WriteLine($"double : {double.MinValue} to {double.MaxValue} (with ~15-17 digits of precision)");
+// Console.WriteLine($"decimal: {decimal.MinValue} to {decimal.MaxValue} (with 28-29 digits of precision)");
+
+// Console.WriteLine("\n");
+// Console.WriteLine("Other Types");
+
+// Console.WriteLine($"char   : {char.MinValue} to {char.MaxValue}");
+// Console.WriteLine($"bool   : {bool.FalseString}, {bool.TrueString}");
+// Console.WriteLine($"object : System.Object");
+// Console.WriteLine($"string : System.String");
+
+
+
+
+
+
+// var startingDeck = from s in Suits()
+//                    from r in Ranks()
+//                    select new { Suit = s, Rank = r };
+
+// foreach (var card in startingDeck) Console.WriteLine(card);   
+
+// // 52 cards in a deck, so 52 / 2 = 26
+// var top = startingDeck.Take(26);
+// var bottom = startingDeck.Skip(26);
+
+
+// static IEnumerable<string> Suits(){
+//     yield return "clubs";
+//     yield return "diamonds";
+//     yield return "hearts";
+//     yield return "spades";
+// }
+
+// static IEnumerable<string> Ranks(){
+//     yield return "two";
+//     yield return "three";
+//     yield return "four";
+//     yield return "five";
+//     yield return "six";
+//     yield return "seven";
+//     yield return "eight";
+//     yield return "nine";
+//     yield return "ten";
+//     yield return "jack";
+//     yield return "queen";
+//     yield return "king";
+//     yield return "ace";
+// }
+
+
+
+// int[] data = new int[3];
+// data[0] = 42;
+// data[1] = 108;
+// data[2] = 6;
+
+// Console.WriteLine(data[0]);
+// Console.WriteLine(data[1]);
+// Console.WriteLine(data[2]);
+
+
+// int first = 10;
+// string second = "10";
+// string result = first + second;
+// Console.WriteLine(result);
+
+
+
+// int myInt = 3;
+// Console.WriteLine($"int: {myInt}");
+
+// decimal myDecimal = myInt;
+// Console.WriteLine($"decimal: {myDecimal}");
+
+// decimal myDecimal = 3.14m;
+// Console.WriteLine($"decimal: {myDecimal}");
+
+// int myInt = (int)myDecimal;
+// Console.WriteLine($"int: {myInt}");
+
+
+// decimal myDecimal = 1.23456789m;
+// float myFloat = (float)myDecimal;
+
+// Console.WriteLine($"Decimal: {myDecimal}");
+// Console.WriteLine($"Float  : {myFloat}");
+
+// int first = 10;
+// int second = 20;
+// string message = first.ToString() + second.ToString();
+// Console.WriteLine(message);
+
+// string first = "10";
+// string second = "20";
+// int sum = Convert.ToInt32(first) + Convert.ToInt32(second);
+// Console.WriteLine(sum);
+// string value = "102";
+// int result = 0;
+// if (int.TryParse(value, out result))
+// {
+//     Console.WriteLine($"Measurement: {result}");
+// }
+// else
+// {
+//     Console.WriteLine("Unable to report the measurement.");
+// }
+
+// string[] names = { "Sadiq", "Bala", "Musa", "Abubakar", "Bashir", "Usman" };
+// Console.WriteLine("Sorted...:");
+// Array.Sort(names);
+// foreach (var name in names){
+//     Console.WriteLine(name);
+// }
+
+
+// Console.WriteLine("Reversed...:");
+// Array.Reverse(names);
+// foreach (var name in names){
+//     Console.WriteLine(name);
+// }
+
+// string[] pallets = { "B14", "A11", "B12", "A13" };
+// Console.WriteLine("");
+
+// Array.Clear(pallets, 0, 2);
+// Console.WriteLine($"Clearing 2 ... count: {pallets.Length}");
+// foreach (var pallet in pallets)
+// {
+//     Console.WriteLine($"-- {pallet}");
+// }
+
+// Console.WriteLine("");
+// Array.Resize(ref pallets, 6);
+// Console.WriteLine($"Resizing 6 ... count: {pallets.Length}");
+
+// pallets[4] = "C01";
+// pallets[5] = "C02";
+
+// foreach (var pallet in pallets)
+// {
+//     Console.WriteLine($"-- {pallet}");
+// }
+
+// Console.WriteLine("");
+// Array.Resize(ref pallets, 3);
+// Console.WriteLine($"Resizing 3 ... count: {pallets.Length}");
+
+// foreach (var pallet in pallets)
+// {
+//     Console.WriteLine($"-- {pallet}");
+// }
+
+// string value = "abc123";
+// char[] valueArray = value.ToCharArray();
+// foreach (var item in valueArray)
+// {
+//     Console.WriteLine(item);
+    
+// }
+
+// string value = "abc123";
+// char[] valueArray = value.ToCharArray();
+// Array.Reverse(valueArray);
+// // string result = new string(valueArray);
+// string result = String.Join(",", valueArray);
+// Console.WriteLine(result);
+
+// string[] items = result.Split(',');
+// foreach (string item in items)
+// {
+//     Console.WriteLine(item);
+// }
+
+// string first = "Hello";
+// string second = "World";
+// string result = string.Format("{0} {1}!", first, second);
+// Console.WriteLine(result);
+
+// decimal price = 123.45m;
+// int discount = 50;
+// Console.WriteLine($"Price: {price:C} (Save {discount:C})");
+
+// int invoiceNumber = 1201;
+// decimal productMeasurement = 25.4568m;
+// decimal subtotal = 2750.00m;
+// decimal taxPercentage = .15825m;
+// decimal total = 3185.19m;
+// Console.WriteLine($"Invoice Number: {invoiceNumber}");
+// Console.WriteLine($"   Measurement: {productMeasurement:N3} mg");
+// Console.WriteLine($"      Subtotal: {subtotal:C}");
+// Console.WriteLine($"           Tax: {taxPercentage:P2}");
+// Console.WriteLine($"         Total: {total:C}");
+
+// string input = "Pad this";
+// Console.WriteLine(input);
+// Console.WriteLine(input.PadLeft(12, '-'));
+// Console.WriteLine(input.PadRight(12, '-'));
+
+// string message = "What is the value <span>between the tags?</span>";
+
+// int openingPosition = message.IndexOf("<span>");
+// int closingPosition = message.IndexOf("</span>");
+
+// openingPosition += "<span>".Length;
+// int length = closingPosition - openingPosition;
+// Console.WriteLine(message.Substring(openingPosition, length));
+
+// string data =  "12345John Smith          5000  3  ";
+// string updatedData = data.Remove(5, 20);
+// Console.WriteLine(updatedData);
+
+// string message = "This--is--ex-amp-le--da-ta";
+// message = message.Replace("--", " ");
+// message = message.Replace("-", "");
+// Console.WriteLine(message);
+
+// void hello(){
+//     Console.WriteLine("Hello world this is my first method in c#");
+// }
+// hello();

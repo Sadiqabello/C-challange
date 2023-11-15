@@ -1,0 +1,14 @@
+/home/sadiq/Desktop/c#/linq/bin/Debug/net7.0/linq
+/home/sadiq/Desktop/c#/linq/bin/Debug/net7.0/linq.deps.json
+/home/sadiq/Desktop/c#/linq/bin/Debug/net7.0/linq.runtimeconfig.json
+/home/sadiq/Desktop/c#/linq/bin/Debug/net7.0/linq.dll
+/home/sadiq/Desktop/c#/linq/bin/Debug/net7.0/linq.pdb
+/home/sadiq/Desktop/c#/linq/obj/Debug/net7.0/linq.GeneratedMSBuildEditorConfig.editorconfig
+/home/sadiq/Desktop/c#/linq/obj/Debug/net7.0/linq.AssemblyInfoInputs.cache
+/home/sadiq/Desktop/c#/linq/obj/Debug/net7.0/linq.AssemblyInfo.cs
+/home/sadiq/Desktop/c#/linq/obj/Debug/net7.0/linq.csproj.CoreCompileInputs.cache
+/home/sadiq/Desktop/c#/linq/obj/Debug/net7.0/linq.dll
+/home/sadiq/Desktop/c#/linq/obj/Debug/net7.0/refint/linq.dll
+/home/sadiq/Desktop/c#/linq/obj/Debug/net7.0/linq.pdb
+/home/sadiq/Desktop/c#/linq/obj/Debug/net7.0/linq.genruntimeconfig.cache
+/home/sadiq/Desktop/c#/linq/obj/Debug/net7.0/ref/linq.dll
