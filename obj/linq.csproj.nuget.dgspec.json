@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/sadiq/Desktop/c#/linq/linq.csproj": {}
+    "/Users/hubuk/sadiq/C-challange/linq.csproj": {}
   },
   "projects": {
-    "/home/sadiq/Desktop/c#/linq/linq.csproj": {
+    "/Users/hubuk/sadiq/C-challange/linq.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/sadiq/Desktop/c#/linq/linq.csproj",
+        "projectUniqueName": "/Users/hubuk/sadiq/C-challange/linq.csproj",
         "projectName": "linq",
-        "projectPath": "/home/sadiq/Desktop/c#/linq/linq.csproj",
-        "packagesPath": "/home/sadiq/.nuget/packages/",
-        "outputPath": "/home/sadiq/Desktop/c#/linq/obj/",
+        "projectPath": "/Users/hubuk/sadiq/C-challange/linq.csproj",
+        "packagesPath": "/Users/hubuk/.nuget/packages/",
+        "outputPath": "/Users/hubuk/sadiq/C-challange/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/sadiq/.nuget/NuGet/NuGet.Config"
+          "/Users/hubuk/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/sadiq/dotnet/sdk/7.0.403/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.309/RuntimeIdentifierGraph.json"
         }
       }
     }
