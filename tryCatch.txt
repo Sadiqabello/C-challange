@@ -19,7 +19,6 @@ static void Process1()
     {
         Console.WriteLine("Exception caught in Process1");
     }
-
 }
 
 static void WriteMessage()
